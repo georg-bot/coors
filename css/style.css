@@ -22,8 +22,17 @@ body {
 h1 {
     font-size: 4rem;
 }
+
 h2 {
     font-size: 3rem;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 ol, ul, li {
@@ -81,6 +90,16 @@ button, input {
 
 .opacity-05 {
     opacity: .5;
+}
+
+.opacity-08 {
+    opacity: .8;
+}
+
+.icon-heading {
+    min-height: 127px;
+    display: flex;
+    align-items: flex-end;
 }
 
 /* ########################################################### */
@@ -153,66 +172,170 @@ button, input {
     background: #121212;
 }
 
-.info__value , .progress__info {
+.info__value, .progress__info {
     display: flex;
     grid-gap: 30px;
 }
-.info__value >div {
+
+.info__value>div {
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
 }
+
 .progress__main {
     border: none;
     width: 714px;
     height: 6px;
     margin-bottom: 5px;
 }
+
 .progress__main::-webkit-progress-value {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
+
 .progress__main::-webkit-progress-bar {
-    background: #FFFFFF;    
+    background: #FFFFFF;
 }
+
 .progress__value {
     display: flex;
     justify-content: space-between;
 }
+
 @media (max-width:1140px) {
     .info {
         flex-direction: column;
         align-items: center;
         grid-gap: 30px;
         padding: 15px 0;
-        
     }
 }
 
 /* info end */
+
 .page-wrap {
     background-image: url(../images/bgc.png);
     padding: 200px 0;
 }
+
 .page {
     flex-direction: column;
     justify-content: flex-start;
-    grid-gap: 200px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+    grid-gap: 200px;
+    ;
 }
+
 .about {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;              
-} 
+    flex-wrap: wrap;
+}
+
 .about__img {
     max-width: 526px;
 }
+
 .about__body {
     max-width: 636px;
     padding-top: 70px;
 }
+
 .about__title {
     margin-bottom: 45px;
 }
+
 .about__text {
     line-height: 160%;
 }
+
+/* start start */
+
+.start__head {
+    margin-bottom: 49px;
+}
+
+.start__info {
+    line-height: 160%;
+    margin-bottom: 80px;
+}
+
+.start__body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+}
+
+.start__title {
+    margin-bottom: 20px;
+}
+
+.start__images {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 35px;
+}
+
+.start__images>div {
+    width: 100%;
+    background-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.start__images-2>div, .start__images-4>div {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.start__images-1>div {
+    height: 100%;
+}
+
+.start__images-2>div {
+    height: 60px;
+}
+
+.start__images-3>div {
+    height: 30px;
+}
+
+.start__images-4>div {
+    height: 10px;
+}
+
+.start__text {
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+/* start end */
+
+/* advantages start */
+
+.advantages {
+    text-align: center;
+}
+
+.advantages__boddy {
+    grid-gap: 80px;
+}
+
+.advantages__head {
+    margin-bottom: 120px;
+}
+
+.advantages__image {
+    margin-bottom: 60px;
+}
+
+.advantages__title {
+    margin-bottom: 30px;
+}
+
+.advantages__info {
+    line-height: 160%;
+    padding: 0 8px;
+}
+
+/* advantages end */
+/* partners start */
+/* partners end */
